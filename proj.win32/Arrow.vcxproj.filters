@@ -1,0 +1,170 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="win32">
+      <UniqueIdentifier>{84a8ebd7-7cf0-47f6-b75e-d441df67da40}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="resource">
+      <UniqueIdentifier>{715254bc-d70b-4ec5-bf29-467dd3ace079}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes">
+      <UniqueIdentifier>{50b3fe02-e8bb-4d94-923f-04f6c853d5df}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\Model">
+      <UniqueIdentifier>{ec3d876e-96a6-4a7b-8dcf-1fe34f1f7923}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\Network">
+      <UniqueIdentifier>{b660d435-d0e7-4f9d-a1c4-dcf780ba77fe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\Plyaer">
+      <UniqueIdentifier>{2393928f-0b9a-4022-ab8a-391f6bc5615c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\Scene">
+      <UniqueIdentifier>{c908dfd1-029a-4b3b-8a2d-d733b91e7bec}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\Tool">
+      <UniqueIdentifier>{f8bc639c-3058-49fb-b4d6-bd08fb4fb0f2}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>win32</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\AppDelegate.cpp">
+      <Filter>Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Player\Archer.cpp">
+      <Filter>Classes\Plyaer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Player\Exp_Progress.cpp">
+      <Filter>Classes\Plyaer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Player\IEntity.cpp">
+      <Filter>Classes\Plyaer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Player\Player.cpp">
+      <Filter>Classes\Plyaer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Player\Progress.cpp">
+      <Filter>Classes\Plyaer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Player\Weapon.cpp">
+      <Filter>Classes\Plyaer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Scene\ChoosePlayerScene.cpp">
+      <Filter>Classes\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Scene\GameScene.cpp">
+      <Filter>Classes\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Scene\GamingScene.cpp">
+      <Filter>Classes\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Scene\HelpScene.cpp">
+      <Filter>Classes\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Scene\LoadingScene.cpp">
+      <Filter>Classes\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Scene\LoginScene.cpp">
+      <Filter>Classes\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Scene\Map.cpp">
+      <Filter>Classes\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Scene\SettingScene.cpp">
+      <Filter>Classes\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Scene\VictoryScene.cpp">
+      <Filter>Classes\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Tool\GameAudio.cpp">
+      <Filter>Classes\Tool</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\client.cpp">
+      <Filter>Classes\Network</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Scene\DefeatScene.cpp">
+      <Filter>Classes\Scene</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="main.h">
+      <Filter>win32</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\AppDelegate.h">
+      <Filter>Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Settings.h">
+      <Filter>Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\PreloadList.h">
+      <Filter>Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Model\User.h">
+      <Filter>Classes\Model</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Player\Archer.h">
+      <Filter>Classes\Plyaer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Player\Exp_Progress.h">
+      <Filter>Classes\Plyaer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Player\IEntity.h">
+      <Filter>Classes\Plyaer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Player\Player.h">
+      <Filter>Classes\Plyaer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Player\Progress.h">
+      <Filter>Classes\Plyaer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Player\User.h">
+      <Filter>Classes\Plyaer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Player\Weapon.h">
+      <Filter>Classes\Plyaer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Scene\ChoosePlayerScene.h">
+      <Filter>Classes\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Scene\DefeatScene.h">
+      <Filter>Classes\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Scene\GameScene.h">
+      <Filter>Classes\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Scene\GamingScene.h">
+      <Filter>Classes\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Scene\HelpScene.h">
+      <Filter>Classes\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Scene\LoadingScene.h">
+      <Filter>Classes\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Scene\LoginScene.h">
+      <Filter>Classes\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Scene\Map.h">
+      <Filter>Classes\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Scene\SettingScene.h">
+      <Filter>Classes\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Scene\VictoryScene.h">
+      <Filter>Classes\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Tool\GameAudio.h">
+      <Filter>Classes\Tool</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\client.h">
+      <Filter>Classes\Network</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="game.rc">
+      <Filter>resource</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>
